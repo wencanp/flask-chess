@@ -6,4 +6,4 @@ services:
     container_name: flask-chess
     ports:
       - "5000:5000"
-    restart: always
+    restart: no

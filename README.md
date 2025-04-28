@@ -13,6 +13,17 @@ docker-compose up --build
 ```
 3. Access the game at `http://localhost:5000/`
 
+## Live Demo
+![Chess Demo](./flask-chess.gif)
+[🔗 Play Flask Chess Online](https://flask-chess.onrender.com/static/index.html)  
+⚡ **Note:**
+This project is deployed on Render's free tier, which may cause:
+- Initial cold start delay (~30 seconds)
+- Slower API response time due to limited server resources
+- Occasional static resource loading failure (e.g., chess piece images)
+
+For the best experience, it is recommended to clone the project and run it locally via Docker. 
+
 ## Tech Stack
 - Python 3.9
 - Flask
